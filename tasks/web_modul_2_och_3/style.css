@@ -1,0 +1,88 @@
+html {
+    scroll-behavior: smooth;
+}
+
+        /* general styling */
+
+body{
+    font-family: monospace;
+    margin: 0;
+    color: rgb(132, 51, 5);
+}
+
+button{
+    background-color: rgb(172, 235, 214);
+    padding: 1rem;
+}
+
+.primary-navigation{
+    border: rgb(210, 114, 114), solid, 0.2rem;
+    padding: 1rem;
+    display: flex;
+    list-style: none;
+    gap: 1rem; /* den separerar list objecten */
+}
+
+        /* link styling */
+
+footer > a{
+    color: black;
+    background-color: rgb(172, 235, 214);
+    padding: 0.5rem;
+    border: rgb(210, 114, 114), solid, 0.2rem;
+}
+
+a:link{
+    color: chocolate;
+    transition: 150ms ease-in-out;
+}
+
+a:visited{
+    color: rgb(114, 48, 0);
+}
+
+a:hover{
+    color: rgb(230, 133, 63);
+}
+
+a:active{
+    color: black;
+    text-decoration: none;
+}
+
+        /* top of the page */
+
+header{
+    background-color: rgb(71, 140, 143);
+    padding-block: 1rem;
+    padding-inline: 1.5rem;
+}
+
+        /* the main section of the page */
+
+.in_line_img{
+    display: block;
+    max-width: 90%;
+    object-fit: cover;
+    font-style: italic;
+    color: rgb(188, 0, 0);
+    border-radius: 2rem;
+    filter: saturate(150%);
+    transition: filter 250ms ease-in-out;
+}
+
+/* .in_line_img:hover{
+    filter: ;
+} */
+
+section{
+    background-color: rgb(215, 255, 255);
+    font-size: 2rem;
+}
+
+        /* bottom of the page */
+
+footer{
+    padding: 2rem;
+    background-color: cadetblue;
+}
