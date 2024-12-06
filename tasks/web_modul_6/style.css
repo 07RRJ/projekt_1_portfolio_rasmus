@@ -3,6 +3,7 @@
 }
 
 body{
+    background-color: white;
     scroll-behavior: smooth;
     font-family: monospace;
     margin: 0;
@@ -48,10 +49,6 @@ a:active{
 
         /* End links */
 
-body{
-    background-color: white;
-}
-
 .flex_layout{
     display: flex;
     align-items: center;
@@ -72,12 +69,6 @@ img{
 .logo{
     width: 32px;
     height: 32px;
-}
-
-body{
-    scroll-behavior: smooth;
-    font-family: monospace;
-    margin: 0;
 }
 
 header{
@@ -114,10 +105,6 @@ a:active{
     list-style: none;
     font-size: 1.125rem;
     gap: 1rem;
-}
-
-body{
-    background-color: white;
 }
 
 .flex_layout{
